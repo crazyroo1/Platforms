@@ -11,8 +11,11 @@ import GameplayKit
 
 struct KeyCodes {
     static let space: UInt16 = 0x31
-    static let d: UInt16 = 0x2
-    static let a: UInt16 = 0x0
+    static let d: UInt16 = 2
+    static let a: UInt16 = 0
+    static let leftArrow: UInt16 = 123
+    static let rightArrow: UInt16 = 124
+    static let upArrow: UInt16 = 126
 }
 struct PC {
     static let player: UInt32 = 0x1 << 1
@@ -76,11 +79,11 @@ class GameScene: SKScene {
     
     override func keyDown(with event: NSEvent) {
         switch event.keyCode {
-        case KeyCodes.space:
+        case KeyCodes.space, KeyCodes.upArrow:
             isPressingSpace = true
-        case KeyCodes.a:
+        case KeyCodes.a, KeyCodes.leftArrow:
             isPressingA = true
-        case KeyCodes.d:
+        case KeyCodes.d, KeyCodes.rightArrow:
             isPressingD = true
         default:
             print("keyDown: \(event.characters!) keyCode: \(event.keyCode)")
@@ -89,12 +92,12 @@ class GameScene: SKScene {
     
     override func keyUp(with event: NSEvent) {
         switch event.keyCode {
-        case KeyCodes.space:
+        case KeyCodes.space, KeyCodes.upArrow:
             isPressingSpace = false
             wasPressingSpace = false
-        case KeyCodes.a:
+        case KeyCodes.a, KeyCodes.leftArrow:
             isPressingA = false
-        case KeyCodes.d:
+        case KeyCodes.d, KeyCodes.rightArrow:
             isPressingD = false
         default:
             doNothing()
