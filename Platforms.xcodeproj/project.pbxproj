@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		970BB7FB2241C904003A0514 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970BB7FA2241C904003A0514 /* AppDelegate.swift */; };
 		970BB7FD2241C904003A0514 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 970BB7FC2241C904003A0514 /* GameScene.sks */; };
-		970BB7FF2241C904003A0514 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 970BB7FE2241C904003A0514 /* Actions.sks */; };
 		970BB8012241C904003A0514 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970BB8002241C904003A0514 /* GameScene.swift */; };
 		970BB8032241C904003A0514 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970BB8022241C904003A0514 /* ViewController.swift */; };
 		970BB8052241C905003A0514 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 970BB8042241C905003A0514 /* Assets.xcassets */; };
@@ -20,7 +19,6 @@
 		970BB7F72241C904003A0514 /* Platforms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Platforms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		970BB7FA2241C904003A0514 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		970BB7FC2241C904003A0514 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		970BB7FE2241C904003A0514 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		970BB8002241C904003A0514 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		970BB8022241C904003A0514 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		970BB8042241C905003A0514 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,7 +59,6 @@
 			children = (
 				970BB7FA2241C904003A0514 /* AppDelegate.swift */,
 				970BB7FC2241C904003A0514 /* GameScene.sks */,
-				970BB7FE2241C904003A0514 /* Actions.sks */,
 				970BB8002241C904003A0514 /* GameScene.swift */,
 				970BB8022241C904003A0514 /* ViewController.swift */,
 				970BB8042241C905003A0514 /* Assets.xcassets */,
@@ -132,7 +129,6 @@
 			files = (
 				970BB7FD2241C904003A0514 /* GameScene.sks in Resources */,
 				970BB8052241C905003A0514 /* Assets.xcassets in Resources */,
-				970BB7FF2241C904003A0514 /* Actions.sks in Resources */,
 				970BB8082241C905003A0514 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
